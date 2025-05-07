@@ -11,6 +11,15 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  images: {
+    remotePatterns: [
+      {
+        hostname: "cs3.wettercomassets.com",
+        protocol: "https",
+        pathname: "/images/interview/**",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
