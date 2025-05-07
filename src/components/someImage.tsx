@@ -6,11 +6,11 @@ export const SomeImage: React.FC = () => {
     <div>
       <Image
         src="https://cs3.wettercomassets.com/images/interview/hafen.jpg"
-        alt="Harbor image"
+        alt="hafen image"
         width={500}
         height={300}
         priority
-        quality={90}
+        quality={20}
       />
       <div>
         Description:

@@ -1,0 +1,107 @@
+.forecastCard {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  margin-bottom: 16px;
+}
+
+.cardHeader {
+  padding: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.date {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.summaryRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.weatherIcon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.weatherText {
+  font-size: 1rem;
+  color: #555;
+  text-align: center;
+}
+
+.tempRange {
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.maxTemp {
+  font-weight: 600;
+  color: #e53935;
+}
+
+.minTemp {
+  font-weight: 600;
+  color: #1e88e5;
+}
+
+.timeBlocks {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.timeBlock {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.timeBlock:last-child {
+  border-bottom: none;
+}
+
+.timeLabel {
+  font-weight: 600;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.timeValue {
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: #666;
+}
+
+.timeWeather {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #555;
+}
+
+.timeEmoji {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 4px;
+  border-radius: 6px;
+}
+
+.timeTemp {
+  font-weight: 600;
+  color: #333;
+  text-align: right;
+}

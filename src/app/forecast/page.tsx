@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../page.module.css";
+import styles from "./forecast.module.css";
 import NextLink from "next/link";
 
 const ForecastPage: React.FC = () => {
